@@ -1,1 +1,1 @@
-# local-community
+# local-connect
