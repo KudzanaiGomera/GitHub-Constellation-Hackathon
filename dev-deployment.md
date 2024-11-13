@@ -32,6 +32,12 @@ source: https://docs.djangoproject.com/en/5.0/topics/install/
 
 ref source: https://stackoverflow.com/questions/66899666/how-to-install-from-requirements-txt
 
+# Migrate DB for the project
+
+## run python migrate
+
+    python manage.py migrate
+
 # Running server:
 
 ## make sure you are in dir where manage.py is and run below
