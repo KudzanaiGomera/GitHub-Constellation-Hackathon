@@ -1,0 +1,4 @@
+Summary:
+- Local Connect aims to build a thriving, interconnected ecosystem where local businesses and communities can support and grow with each other, leveraging AI-driven insights to create meaningful connections, improve user experience, and drive local economic success.
+
+#Features comming soon

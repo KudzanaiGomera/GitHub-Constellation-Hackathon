@@ -1,0 +1,20 @@
+{% extends 'local_connect/base.html' %}
+{% block title %}{{ login }} {% endblock %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-8">
+            <h4>Login</h4>
+            <hr>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <br>
+                <input class="btn btn-info" type="submit" value="Login">
+            </form>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

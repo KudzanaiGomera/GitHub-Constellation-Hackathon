@@ -1,0 +1,89 @@
+{% extends 'local_connect/base.html' %}
+{% block title %}{{ business_profile }} {% endblock %}
+
+{% block content %}
+<div class="container my-4">
+    <div class="row align-items-start">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="text-center">TechTrove Business Profile</h1>
+                </div>
+                <div class="card-body">
+                    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center border-top">
+                        <p class="lead">Welcome to TechTrove, where your digital journey begins! At TechTrove, we're more than just a laptop-selling business; we're your trusted technology companion, dedicated to bringing the world of innovation right to your fingertips. See our products below</p>
+                      </div>
+                      <div
+id="carouselMultiItemExample"
+data-mdb-carousel-init class="carousel slide carousel-dark text-center"
+data-mdb-ride="carousel"
+>
+<!-- Inner -->
+<div class="carousel-inner py-4">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/ASUS-UX333FA-1.jpg"
+              class="card-img-top"
+              alt="Waterfall"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Asus g6</h5>
+              <p class="card-text">
+               Core i7 11th gen asus windows
+              </p>
+              <a href="#!" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Edit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/ASUS-UX333FA-1.jpg"
+              class="card-img-top"
+              alt="Sunset Over the Sea"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Asus g5</h5>
+              <p class="card-text">
+                Core i5  9th gen asus windows
+              </p>
+              <a href="#!" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Edit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/ASUS-UX333FA-1.jpg"
+              class="card-img-top"
+              alt="Sunset over the Sea"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Asus g8</h5>
+              <p class="card-text">
+                Core i9  15th gen asus windows
+              </p>
+              <a href="#!" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Edit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Inner -->
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+{% endblock %}

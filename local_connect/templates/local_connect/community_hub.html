@@ -1,0 +1,56 @@
+{% extends 'local_connect/base.html' %}
+{% block title %}{{ community_hub }} {% endblock %}
+
+{% block content %}
+<div class="container my-4">
+    <div class="row align-items-start">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="text-center">Discover Business</h1>
+                </div>
+                <div class="card-body">
+                    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center border-top">
+                        <p class="lead">Welcome to community hub, where you can discover business that are in your area.</p>
+                        <h3>Tech business</h3>  
+                    </div>
+                      <div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+                        <!-- Inner -->
+                        <div class="carousel-inner py-4">
+                        <!-- Single item -->
+                        <div class="carousel-item active">
+                            <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                <div class="card">
+                                    <img
+                                    src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/ASUS-UX333FA-1.jpg"
+                                    class="card-img-top"
+                                    alt="Waterfall"
+                                    />
+                                    <div class="card-body">
+                                    <h5 class="card-title">TechTrove</h5>
+                                    <p class="card-text">
+                                        Where your digital journey begins! we offer best deals when it comes to tech
+                                    </p>
+                                    {% if user.account_type == 'business' %}
+                                    <a href="{% url 'business_profile' %}" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Visit Business Profile</a>
+                                    {% else %}
+                                    <a href="{% url 'view_business' %}" data-mdb-button-init data-mdb-ripple-init class="btn btn-info">Visit Business</a>
+                                    {% endif %}
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Inner -->
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
