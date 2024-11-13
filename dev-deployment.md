@@ -24,10 +24,10 @@ source: https://docs.djangoproject.com/en/5.0/topics/install/
 
 # Installing Requirements:
 
-## First Freeze pip
-
+## First Freeze pip (can skip this step)
     <!--pip freeze > requirements.txt-->
 
+## Install dependencies required
     pip install -r requirements.txt
 
 ref source: https://stackoverflow.com/questions/66899666/how-to-install-from-requirements-txt
