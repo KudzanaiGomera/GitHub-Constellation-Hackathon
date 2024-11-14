@@ -59,4 +59,25 @@ ref source: https://docs.djangoproject.com/en/5.0/intro/tutorial01/
     zip:11111
 ref source: https://developer.squareup.com/docs/devtools/sandbox/payments
 
+# Chat Bot
+
+## Terminal based and still under training
+    py bot.py
+
+## Incase ntlk is not installed, run
+
+    python
+
+## Interactive mode
+
+    import nltk
+
+## Download nltk
+
+    nltk.download()
+
+# Once installed, exit interactive mode and re run the chatbot.
+
+ref source: https://www.nltk.org/data.html
+
 Happy Coding
