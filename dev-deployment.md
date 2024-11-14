@@ -14,7 +14,7 @@ ref source: https://www.geeksforgeeks.org/create-virtual-environment-using-venv-
 
 # Installing Django:
 
-## else Installing
+## Run below command
     py -m pip install Django
 
 ## verify if Django already exists
